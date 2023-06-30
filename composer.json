@@ -1,5 +1,5 @@
 {
-    "name": "your-project-name",
+    "name": "your-username/php-crowdfunding-website",
     "description": "A simple PHP crowdfunding website",
     "type": "project",
     "require": {},
