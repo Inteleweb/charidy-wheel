@@ -1,10 +1,17 @@
 <?php
 
+namespace App;
+
+use App\FundraiserRepository;
+use App\TemplateRenderer;
+
 class FundraiserController {
     private $fundraiserRepository;
+    private $templateRenderer;
 
     public function __construct() {
         $this->fundraiserRepository = new FundraiserRepository();
+        $this->templateRenderer = new TemplateRenderer();
     }
 
     public function create() {

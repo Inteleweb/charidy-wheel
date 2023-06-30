@@ -1,7 +1,11 @@
 <?php
 
+namespace App;
+
+use App\Fundraiser;
+
 class FundraiserRepository {
-    private $dataFile = 'fundraisers.txt';
+    private $dataFile = 'data/fundraisers.txt';
 
     public function save(Fundraiser $fundraiser) {
         // Load all fundraisers from the data file (if it exists).

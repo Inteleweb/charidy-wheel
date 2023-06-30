@@ -1,5 +1,7 @@
 <?php
 
+namespace App;
+
 class TemplateRenderer {
     public function render($template, $data) {
         // Read the HTML template file.
