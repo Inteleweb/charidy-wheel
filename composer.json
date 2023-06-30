@@ -1,0 +1,11 @@
+{
+    "name": "your-project-name",
+    "description": "A simple PHP crowdfunding website",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
