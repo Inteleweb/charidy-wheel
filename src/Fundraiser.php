@@ -1,5 +1,3 @@
-// Fundraiser.php
-
 <?php
 
 class Fundraiser {
@@ -15,5 +13,23 @@ class Fundraiser {
         $this->amountRaised = $amountRaised;
     }
 
-    // Getters and setters for the properties
+    public function getId() {
+        return $this->id;
+    }
+
+    public function getName() {
+        return $this->name;
+    }
+
+    public function getGoal() {
+        return $this->goal;
+    }
+
+    public function getAmountRaised() {
+        return $this->amountRaised;
+    }
+
+    public function setAmountRaised($amountRaised) {
+        $this->amountRaised = $amountRaised;
+    }
 }
